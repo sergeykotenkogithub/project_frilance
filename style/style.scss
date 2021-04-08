@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @import "main";
+@import "about-company";
+@import "how-it-works";
+@import "affilate";
+@import "statics";
+@import "footer";
+
 
 * {
   margin: 0;
   padding: 0;
 }
+
+// h1, p {
+//   padding: 0;
+//   margin: 0;
+// }
 
 a {
   text-decoration: none;
@@ -19,14 +31,14 @@ body {
 
 .container {
     width: 1170px;
-    margin: 0 auto;
-}
+    margin: 0 auto;}
 
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 42px;
 }
 
 .header-menu {

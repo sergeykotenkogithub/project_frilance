@@ -1,0 +1,146 @@
+.statics {
+  display: flex;
+}
+
+.statics-title {
+  font-weight: 450;
+  font-size: 50px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.static_deposit {
+  display: flex;
+  height: 38px;
+  margin-bottom: 56px;
+}
+
+.last-deposit {
+  border-bottom: 2px solid #8400e4;
+  padding: 0px 55px;
+  color: #8400e4;
+}
+
+.last-withdrawal {
+  border-bottom: 2px solid #2f2c64;
+  padding: 0px 55px;
+  color: #2f2c64;
+}
+
+.static__block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 535px;
+  margin-top: 32px;
+}
+
+.statics_total {
+  background: linear-gradient(180deg, #3c386d 0%, #1d1b45 100%);
+  border-radius: 13px;
+  width: 259px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.statics_total {
+  margin-right: 17px;
+}
+
+.total2 {
+  margin-right: 0;
+}
+
+.totalup {
+  margin-bottom: 18px;
+}
+
+.static-cripto {
+  margin-left: 54px;
+}
+
+.static-cripto__price {
+}
+.static-cripto__block {
+  width: 458px;
+  height: 99px;
+  background: linear-gradient(180deg, #3c386d 0%, #1d1b45 100%);
+  border-radius: 13px;
+  display: flex;
+  margin-bottom: 12px;
+  :last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.emblem {
+  width: 80px;
+  height: 99px;
+  background: linear-gradient(167.93deg, #524e7b 3.98%, #1d1b45 94.01%);
+  border-radius: 13px 0px 0px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 19px;
+    height: 26px;
+  }
+}
+
+.static-cripto_info {
+  font-size: 14px;
+  line-height: 177.5%;
+  color: #5669a9;
+  :first-child {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 177.5%;
+    color: #ffffff;
+  }
+}
+.static-cripto_info2 {
+  font-size: 14px;
+  line-height: 177.5%;
+  color: #5669a9;
+  text-align: center;
+  :first-child {
+    color: #18f8fa;
+  }
+}
+
+.static-cripto_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 42px;
+}
+
+.crypto_perfect {
+  width: 39px !important;
+  height: 32px !important;
+}
+
+.cripto_eth {
+  height: 36px !important;
+  width: 31px !important;
+}
+
+.total_money {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 177.5%;
+}
+
+.total_title {
+  color: #8798d2;
+  font-size: 16px;
+  line-height: 177.5%;
+}
+
+

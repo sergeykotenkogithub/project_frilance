@@ -5,9 +5,12 @@
     
 }
 .main_img1 {
-    height: 789px;
-    background: url("/img/background1.jpg");
+    height: 700px;
+    background: url(/img/background1.jpg);
     background-repeat: no-repeat;
+    background-size: 1345px;
+    background-position-x: -210px;
+    background-position-y: -168px;
 }
 
 .main_frame {
@@ -55,11 +58,11 @@
     top: -660px;
     border-radius: 28px;
     position: absolute;
-    position: relative;
-  
+    position: relative;  
     background: linear-gradient(
 180deg
 , #24204E 0%, #1E1A45 26.43%, #19183F 57.43%, #18153A 100%);
+box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.15)
 }
 
 .container_main {
@@ -77,4 +80,37 @@
         line-height: 100%;   
         color: #FFFFFF;
     }
+}
+
+.container_main_block {
+    width: 629px;
+    margin: 0 auto;
+}
+
+.benefit_img {
+    width: 23px;
+    height: 24px;
+    margin-right: 25px;
+}
+
+.benefits {
+    display: flex;
+}
+
+.benefits_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.benefits_category {
+    color: #7286cb;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    span {
+       color: #FFFFFF;
+    }
+}
+
+.benefits_down {
+    margin-top: 27px;
 }

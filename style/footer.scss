@@ -1,0 +1,67 @@
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 14px;
+  line-height: 177.5%;
+  margin-top: 129px;
+  margin-bottom: 50px;
+}
+.footer_logo {
+  :first-child {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+  :last-child {
+    opacity: 0.26;
+    font-size: 14px;
+    line-height: 177.5%;
+    color: #ffffff;
+  }
+}
+.team {
+  color: #ffffff;
+  opacity: 0.26;
+}
+// .footer_social {
+//   :last-child {
+
+//   }
+// }
+
+.footer_year {
+  color: #ffffff;
+  opacity: 0.26;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.social_all {
+  background: linear-gradient(180deg, #3c386d 0%, #1d1b45 100%);
+  border-radius: 13px;
+  height: 30.87794303894043px;
+  width: 30.04827880859375px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  .social_1 {
+    width: 11px;
+  }
+  .social_2 {
+    width: 18;
+    height: 15px;
+  }
+  .social_3 {
+    background: white;
+    width: 18px;
+  }
+}
