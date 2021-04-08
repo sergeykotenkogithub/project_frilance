@@ -1,16 +1,60 @@
 .about-company {
   position: relative;
+  margin-top: 140px;
+  position: relative;
 }
 
 .about-company__wrapper {
   height: 930px;
-  background: url(/img/background2.png);
+  // background: url(/img/background2.png);
   background-repeat: no-repeat;
   background-position-x: 500px;
+  position: relative;
+}
+
+.container-backround {
+    width: 1370px;
+    margin: 0 auto;
+    background: url(/img/background2.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position-x: 265px;
+    background-position-y: -55px;
 }
 
 .about-company__text {
   margin-top: 100px;
   height: 290px;
   width: 538px;
+  p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 181%;
+    color: #FFFFFF;
+  }
+}
+
+
+.about-company_information {
+  p {
+    color: #FFFFFF;
+    opacity: 0.44;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h1 {
+    color: #FFFFFF;
+    font-weight: 450;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+
+.about-backroud {
+  // background: url(/img/background2.png);
+  width: 500px;
+  height: 500px;  
 }

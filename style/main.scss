@@ -1,116 +1,215 @@
 .main {
-    height: 789px;
-    position: relative;
-    overflow: hidden;
-    
+  height: 789px;
+  position: relative;
+  overflow: hidden;
 }
 .main_img1 {
-    height: 700px;
-    background: url(/img/background1.jpg);
-    background-repeat: no-repeat;
-    background-size: 1345px;
-    background-position-x: -210px;
-    background-position-y: -168px;
+  height: 700px;
+  background: url(/img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: 1345px;
+  background-position-x: -210px;
+  background-position-y: -168px;
 }
 
 .main_frame {
-    background: url(/img/frame.png);
-    height: 700px;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 500px;
+  background: url(/img/frame.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 500px;
 }
 
 .main_frame_up {
-    background: url("/img/main_frame_up.png");
-    height: 300px;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 500px;
-    background-position-x: 20px;
-    background-position-y: -75px;
+  background: url(/img/main_frame_up.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 500px;
+  background-position-x: 31px;
+  background-position-y: -345px;
 }
 
 .main_img2_up {
-    background: url(/img/main_frame_right.png);
-    position: absolute;
-    height: 700px;
-    width: 1643px;
-    top: -70px;
-    left: 315px;
-    background-repeat: no-repeat;
+  background: url(/img/main_frame_right.png);
+  position: absolute;
+  height: 700px;
+  width: 1643px;
+  top: -70px;
+  left: 315px;
+  background-repeat: no-repeat;
 }
 
 .main_img2_down {
-    background: url(/img/main_frame_down_right.png);
-    position: absolute;
-    height: 785px;
-    width: 625px;
-    top: 120px;
-    left: 641px;
+  background: url(/img/main_frame_down_right.png);
+  position: absolute;
+  height: 785px;
+  width: 625px;
+  top: 120px;
+  left: 641px;
 }
 
 .main__block {
-    height: 562px;
-    width: 797px;
-    top: -660px;
-    border-radius: 28px;
-    position: absolute;
-    position: relative;  
-    background: linear-gradient(
-180deg
-, #24204E 0%, #1E1A45 26.43%, #19183F 57.43%, #18153A 100%);
-box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.15)
+  height: 562px;
+  width: 797px;
+  top: -660px;
+  border-radius: 28px;
+  position: absolute;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #24204e 0%,
+    #1e1a45 26.43%,
+    #19183f 57.43%,
+    #18153a 100%
+  );
+  box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.15);
 }
 
 .container_main {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .main_title {
-    text-align: center;
-    margin-top: 74px;
-    h1 {       
-        font-size: 40px;
-        line-height: 60px;
-        line-height: 100%;   
-        color: #FFFFFF;
-    }
+  text-align: center;
+  margin-top: 74px;
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+    line-height: 100%;
+    color: #ffffff;
+  }
 }
 
 .container_main_block {
-    width: 629px;
-    margin: 0 auto;
+  width: 629px;
+  margin: 0 auto;
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+.main__block-p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.49;
 }
 
 .benefit_img {
-    width: 23px;
-    height: 24px;
-    margin-right: 25px;
+  width: 23px;
+  height: 24px;
+  margin-right: 25px;
 }
 
 .benefits {
-    display: flex;
+  display: flex;
 }
 
 .benefits_wrapper {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .benefits_category {
-    color: #7286cb;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    span {
-       color: #FFFFFF;
-    }
+  color: #7286cb;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  span {
+    color: #ffffff;
+  }
 }
 
 .benefits_down {
-    margin-top: 27px;
+  margin-top: 27px;
+}
+
+.profit {
+  display: flex;
+}
+
+.profit__name {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.36;
+}
+.profit_price {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.coin7 {
+  width: 34px;
+  height: 32px;
+  background: red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.all_crypto-info {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.42;
+}
+
+.all_crypto {
+  display: flex;
+}
+
+.all_crypto-coin {
+  display: flex;
+}
+
+.make {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  width: 629px;
+  margin-top: 44px;
+
+  width: 629.01px;
+  height: 73px;
+
+  background: linear-gradient(
+    180deg,
+    #8500e5 0%,
+    #8400e3 28.13%,
+    #6901c1 62.5%,
+    #4d00a0 100%
+  );
+  border-radius: 10px;
+}
+
+.container_main_block {
+  margin-top: 34px;
+}
+
+.benefits_wrapper {
+  margin-top: 28px;
+}
+
+.profit {
+  margin-top: 35px;
+  margin-bottom: 28px;
 }

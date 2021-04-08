@@ -1,7 +1,7 @@
 .how-it-works {
   text-align: center;
   position: relative;
-  top: -63px;
+  top: -150px;
   p {
     font-size: 18px;
     line-height: 27px;
@@ -21,29 +21,31 @@
   display: flex;
   justify-content: space-between;
   margin: 0px 20px;
+  text-align: center;
 }
 
 .line {
   position: relative;
 }
 
-.line1 {
-  border: 2px solid #2f2c64;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+// .line1 {
+//   border: 2px solid #2f2c64;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+// }
 
 .line2 {
   border: 2px solid #8400e4;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   position: absolute;
-  width: 300px;
-  top: 0;
+  width: 104px;
+  top: 6px;
 }
 
 .how-text {
   display: flex;
   justify-content: space-between;
-
+  padding: 0 25px;
+  padding-top: 19px;
   p {
     width: 174px;
     text-align: center;
@@ -53,3 +55,85 @@
     font-weight: 300;
   }
 }
+
+.linediv {
+  border: 2px solid #2f2c64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.advantages {
+  position: relative;
+}
+
+
+.advantages div {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 177.5%;
+  padding-bottom: 12px;
+}
+
+.affilate__title {
+  p {
+    color: #ffffff;
+    opacity: 0.44;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27p;
+  }
+  h1 {
+    font-weight: 450;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
+.line_all {
+  border: 2px solid #2f2c64;
+  position: absolute;
+  top: 190px;
+  width: 100%;
+  left: 1px;
+}
+
+.line_chose {
+  position: absolute;
+  border: 2px solid #8400e4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.21);
+  top: 190px;
+  width: 15%;
+  left: 1px;
+}
+
+.how-information {
+  position: relative;
+  bottom: 90px;
+}
+
+.circle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: aliceblue;
+  left: 85px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  z-index: 2;
+  background: #19153F;
+  border: 2px solid #2F2C64;
+  box-sizing: border-box;
+}
+
+.circle_choose {
+  background: #8400E4;
+  img {
+    margin-left: 2px;
+    margin-bottom: 9px;
+    width: 14px;
+  }
+}
+
