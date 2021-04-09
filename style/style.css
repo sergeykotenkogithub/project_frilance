@@ -2,13 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 .main {
-  height: 789px;
+  height: 1100px;
   position: relative;
   overflow: hidden; }
 
 .main_img1 {
   height: 700px;
-  background: url(/img/background1.jpg);
   background-repeat: no-repeat;
   background-size: 1345px;
   background-position-x: -210px;
@@ -33,21 +32,21 @@
   background-position-y: -345px; }
 
 .main_img2_up {
-  background: url(/img/main_frame_right.png);
+  background: url(/img/main_frame_right.png) no-repeat;
   position: absolute;
-  height: 700px;
+  height: 943px;
   width: 1643px;
   top: -70px;
   left: 315px;
-  background-repeat: no-repeat; }
+  background-size: cover; }
 
 .main_img2_down {
   background: url(/img/main_frame_down_right.png);
   position: absolute;
   height: 785px;
-  width: 625px;
-  top: 120px;
-  left: 641px; }
+  width: 700px;
+  top: 257px;
+  left: 817px; }
 
 .main__block {
   height: 562px;
@@ -128,14 +127,16 @@
 .profit_price {
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-top: 8px; }
 
 .coin7 {
   width: 34px;
-  height: 32px;
+  height: 35px;
   background: red;
   border-radius: 10px;
-  text-align: center; }
+  text-align: center;
+  margin-left: 4px; }
 
 .all_crypto-info {
   font-weight: 300;
@@ -149,6 +150,8 @@
 
 .all_crypto-coin {
   display: flex; }
+  .all_crypto-coin div {
+    padding-left: 4px; }
 
 .make {
   font-weight: 500;
@@ -172,27 +175,49 @@
 
 .profit {
   margin-top: 35px;
-  margin-bottom: 28px; }
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.price_block {
+  width: 115px;
+  height: 44px;
+  left: 602.99px;
+  top: 507px;
+  background: #3e3c5c;
+  opacity: 0.46;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.menu__link_1 {
+  color: white; }
+
+.arrow {
+  margin-left: 4px; }
+
+.hover_menu {
+  display: flex; }
 
 .about-company {
-  position: relative;
-  margin-top: 140px;
   position: relative; }
 
 .about-company__wrapper {
   height: 930px;
   background-repeat: no-repeat;
   background-position-x: 500px;
-  position: relative; }
+  position: relative;
+  margin-left: 100px; }
 
 .container-backround {
-  width: 1370px;
   margin: 0 auto;
   background: url(/img/background2.png);
   height: 800px;
   background-repeat: no-repeat;
-  background-position-x: 265px;
-  background-position-y: -55px; }
+  background-position-x: 712px;
+  background-position-y: -60px; }
 
 .about-company__text {
   margin-top: 100px;
@@ -307,7 +332,7 @@
   border: 2px solid #8400e4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.21);
   top: 190px;
-  width: 15%;
+  width: 25%;
   left: 1px; }
 
 .how-information {
@@ -347,8 +372,7 @@
 
 .minimal_img {
   position: absolute;
-  top: -40px;
-  top: -50px;
+  top: -71px;
   left: -37px; }
 
 .affilate {
@@ -383,6 +407,17 @@
     right: -16px;
     top: -100px; }
 
+.turbo2 {
+  top: -90px !important; }
+
+.turbo2div {
+  height: 279px;
+  margin-top: 166px; }
+
+.position_2 {
+  top: 110px !important;
+  right: 25px !important; }
+
 .turbo3 {
   height: 368px;
   width: 284px;
@@ -390,7 +425,7 @@
   margin-top: 78px; }
 
 .turbo3_img {
-  top: -36px !important; }
+  top: -50px !important; }
 
 .turbo4 {
   background: linear-gradient(180deg, #25214f 0%, #1d1b45 100%);
@@ -409,12 +444,12 @@
 .cup {
   position: absolute;
   left: 100px;
-  top: -25px; }
+  top: -29px; }
 
 .cup2 {
   position: absolute;
   left: 160px;
-  top: 28px; }
+  top: 50px; }
 
 .cup3 {
   position: absolute;
@@ -520,7 +555,7 @@
     margin-bottom: 0px; }
 
 .emblem {
-  width: 80px;
+  width: 130px;
   height: 99px;
   background: linear-gradient(167.93deg, #524e7b 3.98%, #1d1b45 94.01%);
   border-radius: 13px 0px 0px 13px;
@@ -590,15 +625,16 @@
   font-size: 30px;
   line-height: 35px;
   color: #ffffff; }
-.footer_logo :last-child {
-  opacity: 0.26;
-  font-size: 14px;
-  line-height: 177.5%;
-  color: #ffffff; }
 
 .team {
   color: #ffffff;
   opacity: 0.26; }
+
+.footer_text {
+  opacity: 0.26;
+  font-size: 14px;
+  line-height: 177.5%;
+  color: #ffffff; }
 
 .footer_year {
   color: #ffffff;
@@ -646,21 +682,30 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 42px; }
+  padding-top: 42px; }
 
 .header-menu {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  position: relative;
+  margin-left: 93px; }
+  .header-menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff; }
+  .header-menu:last-child {
+    margin-left: 0; }
+
+.menu__link {
   color: #ffffff;
   opacity: 0.4; }
 
 .header-menu__link {
   padding-right: 83px; }
   .header-menu__link .header-menu__link:last-child {
+    padding-right: 45px; }
+  .header-menu__link:last-child {
     padding-right: 45px; }
 
 .header-button {
@@ -692,16 +737,12 @@ body {
   background: linear-gradient(180deg, #8500E5 0%, #8400E3 28.13%, #6901C1 62.5%, #4D00A0 100%); }
 
 .wrapper {
-  width: 1370px;
-  margin: 0 auto;
   position: relative; }
 
 .background-wrapper {
-  background: url(/img/background1.jpg);
-  background-size: 1140px;
-  background-repeat: no-repeat;
-  background-position-x: -180px;
-  background-position-y: 70px; }
+  background: url(/img/bg.png) no-repeat;
+  background-position-y: -80px;
+  background-size: 1570px; }
 
 .panel {
   height: 304px;
@@ -723,7 +764,25 @@ body {
   font-size: 10px;
   line-height: 15px;
   color: #FFFFFF; }
-  .country_name div {
-    margin-right: 5px; }
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.tt {
+  position: absolute;
+  width: 50px;
+  height: 54px;
+  top: 10px;
+  left: 60px; }
+
+.tt1 {
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */

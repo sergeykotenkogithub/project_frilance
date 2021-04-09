@@ -14,22 +14,19 @@
     line-height: 35px;
     color: #ffffff;
   }
-  :last-child {
-    opacity: 0.26;
-    font-size: 14px;
-    line-height: 177.5%;
-    color: #ffffff;
-  }
 }
 .team {
   color: #ffffff;
   opacity: 0.26;
 }
-// .footer_social {
-//   :last-child {
 
-//   }
-// }
+.footer_text {    
+  opacity: 0.26;
+  font-size: 14px;
+  line-height: 177.5%;
+  color: #ffffff;
+  
+}
 
 .footer_year {
   color: #ffffff;

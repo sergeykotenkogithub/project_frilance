@@ -1,7 +1,6 @@
 .about-company {
   position: relative;
-  margin-top: 140px;
-  position: relative;
+  // margin-top: 140px;
 }
 
 .about-company__wrapper {
@@ -10,16 +9,17 @@
   background-repeat: no-repeat;
   background-position-x: 500px;
   position: relative;
+  margin-left: 100px;
 }
 
 .container-backround {
-    width: 1370px;
+    // width: 1700px;
     margin: 0 auto;
     background: url(/img/background2.png);
     height: 800px;
     background-repeat: no-repeat;
-    background-position-x: 265px;
-    background-position-y: -55px;
+    background-position-x: 712px;
+    background-position-y: -60px;
 }
 
 .about-company__text {
