@@ -1,0 +1,134 @@
+.minimal {
+  width: 284px;
+  height: 249px;
+  width: 284px;
+  height: 249px;
+  background: linear-gradient(180deg, #25214f 0%, #1d1b45 100%);
+  box-shadow: -2px 8px 18px rgba(0, 0, 0, 0.18);
+  border-radius: 13px;
+  margin-top: 197px;
+  position: relative; }
+
+.minimal_img {
+  position: absolute;
+  top: -71px;
+  left: -37px; }
+
+.affilate {
+  position: relative;
+  margin-top: 139px; }
+
+.premium_wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.team-deposite {
+  opacity: 0.31;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 177.5%;
+  margin-bottom: 98px;
+  margin-top: 23px; }
+
+.turbo {
+  background: linear-gradient(180deg, #25214f 0%, #1d1b45 100%);
+  box-shadow: -2px 8px 18px rgba(0, 0, 0, 0.18);
+  border-radius: 13px;
+  height: 249px;
+  width: 284px;
+  border-radius: 13px;
+  margin-top: 197px;
+  position: relative; }
+  .turbo img {
+    position: absolute;
+    right: -16px;
+    top: -100px; }
+
+.turbo2 {
+  top: -90px !important; }
+
+.turbo2div {
+  height: 279px;
+  margin-top: 166px; }
+
+.position_2 {
+  top: 110px !important;
+  right: 25px !important; }
+
+.turbo3 {
+  height: 368px;
+  width: 284px;
+  border-radius: 13px;
+  margin-top: 78px; }
+
+.turbo3_img {
+  top: -50px !important; }
+
+.turbo4 {
+  background: linear-gradient(180deg, #25214f 0%, #1d1b45 100%);
+  box-shadow: -2px 8px 18px rgba(0, 0, 0, 0.18);
+  border-radius: 13px;
+  height: 442px;
+  width: 284px;
+  border-radius: 13px;
+  position: relative;
+  margin-top: 4px; }
+  .turbo4 img {
+    position: absolute;
+    top: -29px;
+    left: -43px; }
+
+.cup {
+  position: absolute;
+  left: 100px;
+  top: -29px; }
+
+.cup2 {
+  position: absolute;
+  left: 160px;
+  top: 50px; }
+
+.cup3 {
+  position: absolute;
+  left: 200px;
+  top: 100px; }
+
+.cup4 {
+  position: absolute;
+  left: 110px;
+  top: 10px; }
+
+.premium__position {
+  position: absolute;
+  top: 85px;
+  right: 35px;
+  text-align: center; }
+
+.premium_title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 177.5%;
+  margin-bottom: 25px; }
+
+.premium_info {
+  font-size: 16px;
+  line-height: 177.5%;
+  color: #5669a9;
+  padding-bottom: 5px; }
+  .premium_info span {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 177.5%;
+    font-family: Lato; }
+
+.position_3 {
+  top: 200px; }
+
+.position_4 {
+  top: 278px; }
+
+/*# sourceMappingURL=affilate.css.map */

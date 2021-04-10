@@ -18,20 +18,22 @@
             <img src="./img/logo.svg" alt="logo" />
           </div>
           <nav class="header-menu">  
-          <div class="tt">
-            <div class="tt1">
-              <img src="./img/2.svg" alt="">
-              <img src="./img/2.svg" alt="">
+            <div class="menu__choose">
+              <div class="menu__choose-wrapper">
+                <img src="./img/2.svg" alt="">
+                <img src="./img/2.svg" alt="">
+              </div>
+              <div class="menu__choose-wrapper">
+                <img src="./img/2.svg" alt="">
+                <img src="./img/2.svg" alt="">
+              </div>
+              <!-- Меню ............................................................................................................. -->
             </div>
-            <div class="tt1">
-              <img src="./img/2.svg" alt="">
-              <img src="./img/2.svg" alt="">
-            </div>
-          </div>
-            <a href="#" class="header-menu__link menu__link_1">HOME</a>
-            <a href="#" class="header-menu__link menu__link">FAQ</a>
-            <a href="#" class="header-menu__link menu__link">Statistics</a>
-            <a href="#" class="header-menu__link menu__link menu_last">Contact Us</a>          
+              <a href="#" class="header-menu__link menu__link_1">HOME</a>
+              <a href="#" class="header-menu__link menu__link menu__link_2">FAQ</a>
+              <a href="#" class="header-menu__link menu__link menu__link_3">Statistics</a>
+              <a href="#" class="header-menu__link menu__link menu_last">Contact Us</a>          
+              <div class="menu_hover"></div>
           </nav>
           <div class="header-button_wrapper">
             <button class="header-button sign-in">SIGN IN</button>
@@ -70,7 +72,7 @@
                     </div>
                     <div class="benefits benefits_down">
                       <div class="benefit_img">
-                        <img src="./img/Group.svg" alt="" />
+                        <img src="./img/investment/2.svg" alt="" />
                       </div>
                       <div class="benefits_category">Instant Withdrawals</div>
                     </div>
@@ -79,7 +81,7 @@
                   <div class="benefit_group">
                     <div class="benefits">
                       <div class="benefit_img">
-                        <img src="./img/Group.svg" alt="" />
+                        <img src="./img/investment/3.svg"alt="" />
                       </div>
                       <div class="benefits_category">
                         Plan Duration: <span>40 days</span>
@@ -87,7 +89,7 @@
                     </div>
                     <div class="benefits benefits_down">
                       <div class="benefit_img">
-                        <img src="./img/Group.svg" alt="" />
+                        <img src="./img/investment/4.svg" alt="" />
                       </div>
                       <div class="benefits_category">
                         Min-Max Deposit: <span>20$ - 100.000$</span>
@@ -99,7 +101,7 @@
                 <div class="profit">
                       <div class="profit-wrapper">
                         <div class="profit__name">Enter Amount</div>
-                        <div class="profit_price price_block">20</div>
+                        <div class="profit_price price_block"><input type="text" placeholder="20"></div>
                       </div>
                       <div class="profit-wrapper">
                         <div class="profit__name">Daily Profit</div>
@@ -118,19 +120,19 @@
                   <div class="all_crypto">
                   <div class="all_crypto-info">*We Accept:</div>
                         <div class="all_crypto-coin">
-                          <div><img src="img/coins/2.svg" alt="1"></div>
                           <div><img src="img/coins/1.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 47.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 48.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 49.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 50.svg" alt="1"></div>
-                          <div class="coin7"><img src="img/coins/Vector.svg" alt="1"></div> 
-                          <div><img src="img/coins/Group 52.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 53.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 54.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 55.svg" alt="1"></div>
+                          <div><img src="img/coins/Group 57.svg" alt="1"></div> 
                           <div><img src="img/coins/Group 56.svg" alt="1"></div>
-                          <div><img src="img/coins/Group 57.svg" alt="1"></div>                  
+                          <div><img src="img/coins/Group 55.svg" alt="1"></div>   
+                          <div><img src="img/coins/Group 54.svg" alt="1"></div>
+                          <div><img src="img/coins/Group 53.svg" alt="1"></div>
+                          <div><img src="img/coins/Group 52.svg" alt="1"></div>
+                          <div><img src="img/coins/Group 59.png" alt="1"></div>
+                          <div><img src="img/coins/Group 50.svg" alt="1"></div>
+                          <div><img src="img/coins/Group 49.svg" alt="1"></div>                          
+                          <div><img src="img/coins/Group 48.svg" alt="1"></div>                      
+                          <div><img src="img/coins/Group 47.svg" alt="1"></div>
+                          <div><img src="img/coins/2.svg" alt="1"></div>               
                         </div>
                     </div>
                   <button class="make">make a deposit</button>
@@ -141,35 +143,45 @@
           </div>
         </div>
 
+        <!-- Слева панель, переключение языка -->
+
         <div class="panel">
 
-          <div class="country">
+          <a href=""><div class="country">
             <img src="img/panel/soc1.svg" alt="soc1">
             <div class="country_name">
               <div>ENG</div>
               <img class="arrow" src="./img/arrow.svg" alt="arrow">
             </div>
-          </div>       
+            </div>  
+          </a>      
 
+          <a href="">
           <div class="country">
             <img src="img/panel/t.svg" alt="soc1">
             <div class="country_name">
               <div>News</div>
             </div>
           </div>
+          </a>
 
+          <a href="">
           <div class="country">
             <img src="img/panel/t.svg" alt="soc1">
             <div class="country_name">
               <div>Chat</div>
             </div>
           </div>
+        </a>
 
         </div>
 
+        <!-- About company ............................................................................................................. -->
+
         <div class="about-company">
+          <div class="container-backround"></div>
           <div class="about-company__wrapper">
-            <div class="container-backround">
+            
               <!-- <div class="container"> -->
                 <div class="about-company_information">
                   <p>Information</p>
@@ -191,13 +203,10 @@
                     At Block Bank, we make money from mining, Proof of Work &
                     Proof of Stake systems, and cryptocurrency tradnig
                   </p>
-                </div>
               </div>
             </div>
           </div>
-        </div>
-
-       
+        </div>       
 
         <!-- how it works  .............................................................................................................-->
 
@@ -228,12 +237,12 @@
               <div class="advantages">
                 <img src="./img/howitworks/3.svg" alt="3" />
                 <div>GET PAID</div>
-                <div class="circle"></div>
+                <div class="circle circle3"></div>
               </div>
               <div class="advantages">
                 <img src="./img/howitworks/4.svg" alt="4" />
                 <div>EARNINGS</div>
-                <div class="circle"></div>
+                <div class="circle circle4"></div>
               </div>
             </div>
           </div>
@@ -389,7 +398,7 @@
             <div class="static-cripto">
               <div class="static_deposit">
                 <div class="last-deposit">Last Deposit</div>
-                <div class="last-withdrawal">Last Withdrawal</div>
+                <div class="last-withdrawal"><a href="#">Last Withdrawal</a> </div>                
               </div>
 
               <!-- Биткоин -->
@@ -422,7 +431,7 @@
                     </div>
                     <div class="static-cripto_info2">
                       <div>+ $ 500.00</div>
-                      <div>Hoot**</div>
+                      <div>faccen**</div>
                     </div>
                   </div>
                 </div>
@@ -443,13 +452,13 @@
                     </div>
                     <div class="static-cripto_info2">
                       <div>+ $ 250.00</div>
-                      <div>Hoot**</div>
+                      <div>no**</div>
                     </div>
                   </div>
                 </div>
 
                 <!-- Etherium -->
-
+                
                 <div class="static-cripto__block">
                   <div class="emblem">
                     <img
@@ -465,7 +474,7 @@
                     </div>
                     <div class="static-cripto_info2">
                       <div>+ $ 500.00</div>
-                      <div>Hoot**</div>
+                      <div>HMN8**</div>
                     </div>
                   </div>
                 </div>
@@ -473,6 +482,9 @@
             </div>
           </div>
         </div>
+        
+        <!-- ............................................................................................................. -->
+        <!-- Футер  -->
 
         <footer>
           <div class="container">

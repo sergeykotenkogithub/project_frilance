@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
@@ -129,6 +130,19 @@
   line-height: 24px;
   color: #ffffff;
   margin-top: 8px; }
+  .profit_price input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 38, 92, 0.4);
+    padding-left: -10px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff; }
+  .profit_price input[type="text"]::placeholder {
+    color: #ffffff; }
 
 .coin7 {
   width: 34px;
@@ -143,7 +157,10 @@
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  opacity: 0.42; }
+  opacity: 0.42;
+  display: flex;
+  align-items: center;
+  padding-right: 6px; }
 
 .all_crypto {
   display: flex; }
@@ -151,13 +168,16 @@
 .all_crypto-coin {
   display: flex; }
   .all_crypto-coin div {
-    padding-left: 4px; }
+    padding-left: 4px;
+    transition: transform 1.3s ease 0s; }
+    .all_crypto-coin div :hover {
+      transform: scale(1.2, 1.2);
+      transition: all 0.3s ease 0s; }
 
 .make {
   font-weight: 500;
   font-size: 17px;
   line-height: 25px;
-  /* identical to box height */
   text-transform: uppercase;
   color: #ffffff;
   width: 629px;
@@ -165,7 +185,9 @@
   width: 629.01px;
   height: 73px;
   background: linear-gradient(180deg, #8500e5 0%, #8400e3 28.13%, #6901c1 62.5%, #4d00a0 100%);
-  border-radius: 10px; }
+  border-radius: 10px;
+  outline: none;
+  border: 0; }
 
 .container_main_block {
   margin-top: 34px; }
@@ -178,15 +200,15 @@
   margin-bottom: 28px;
   display: flex;
   justify-content: space-between;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
 
 .price_block {
   width: 115px;
   height: 44px;
   left: 602.99px;
   top: 507px;
-  background: #3e3c5c;
-  opacity: 0.46;
+  background-color: rgba(62, 60, 92, 0.46);
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -202,22 +224,27 @@
   display: flex; }
 
 .about-company {
-  position: relative; }
+  position: relative;
+  background: url(/img/14.png);
+  height: 952px;
+  background-repeat: no-repeat; }
 
 .about-company__wrapper {
-  height: 930px;
   background-repeat: no-repeat;
-  background-position-x: 500px;
   position: relative;
-  margin-left: 100px; }
+  margin-left: 140px; }
 
 .container-backround {
-  margin: 0 auto;
   background: url(/img/background2.png);
-  height: 800px;
+  height: 1085px;
   background-repeat: no-repeat;
-  background-position-x: 712px;
-  background-position-y: -60px; }
+  background-position-x: 509px;
+  background-position-y: -44px;
+  position: absolute;
+  top: -155px;
+  background-size: 1416px;
+  left: 0;
+  right: 0; }
 
 .about-company__text {
   margin-top: 100px;
@@ -266,7 +293,7 @@
 .how_wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 0px 20px;
+  margin: 0px 25px;
   text-align: center; }
 
 .line {
@@ -281,16 +308,23 @@
 
 .how-text {
   display: flex;
-  justify-content: space-between;
-  padding: 0 25px;
+  padding-left: 25px;
   padding-top: 19px; }
   .how-text p {
     width: 174px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 177.5%;
     color: #5669A9;
     font-weight: 300; }
+  .how-text :first-child {
+    padding-right: 164px; }
+  .how-text :nth-child(2) {
+    width: 215px;
+    padding-right: 121px; }
+  .how-text :nth-child(3) {
+    width: 189px;
+    padding-right: 105px; }
 
 .linediv {
   border: 2px solid #2f2c64;
@@ -351,6 +385,12 @@
   background: #19153F;
   border: 2px solid #2F2C64;
   box-sizing: border-box; }
+
+.circle3 {
+  left: 53px; }
+
+.circle4 {
+  left: 62px; }
 
 .circle_choose {
   background: #8400E4; }
@@ -513,8 +553,9 @@
 
 .last-withdrawal {
   border-bottom: 2px solid #2f2c64;
-  padding: 0px 55px;
-  color: #2f2c64; }
+  padding: 0px 55px; }
+  .last-withdrawal a {
+    color: #2f2c64; }
 
 .static__block {
   display: flex;
@@ -582,7 +623,10 @@
   color: #5669a9;
   text-align: center; }
   .static-cripto_info2 :first-child {
-    color: #18f8fa; }
+    color: #18f8fa;
+    font-size: 18px; }
+  .static-cripto_info2 :last-child {
+    text-align: end; }
 
 .static-cripto_wrapper {
   display: flex;
@@ -705,8 +749,9 @@ body {
   padding-right: 83px; }
   .header-menu__link .header-menu__link:last-child {
     padding-right: 45px; }
-  .header-menu__link:last-child {
-    padding-right: 45px; }
+
+.menu_last {
+  padding-right: 45px; }
 
 .header-button {
   border: 1px solid #8300e1;
@@ -742,14 +787,14 @@ body {
 .background-wrapper {
   background: url(/img/bg.png) no-repeat;
   background-position-y: -80px;
-  background-size: 1570px; }
+  background-size: 1356px; }
 
 .panel {
   height: 304px;
   width: 73px;
   background: #19153A;
   border-radius: 0px 35px 35px 0px;
-  position: absolute;
+  position: fixed;
   top: 281px;
   display: flex;
   flex-direction: column;
@@ -775,14 +820,40 @@ body {
   max-width: 100%;
   overflow-x: hidden; }
 
-.tt {
+.menu__choose {
   position: absolute;
   width: 50px;
   height: 54px;
   top: 10px;
   left: 60px; }
 
-.tt1 {
+.menu__choose-wrapper {
   display: flex; }
+
+.menu_hover {
+  position: absolute;
+  width: 56px;
+  height: 4px;
+  background: linear-gradient(180deg, #8500e5 0%, #8400e3 28.13%, #6901c1 62.5%, #4d00a0 100%);
+  left: -6px;
+  color: white;
+  transition: all 0.5s ease 0s; }
+
+.menu__link_2 {
+  transition:  left 0 0.5s ease 0s; }
+
+.menu__link_2:hover ~ .menu_hover {
+  color: red;
+  width: 46px;
+  left: 126px;
+  transition:  left 0 0.5s ease 0s; }
+
+.menu__link_3:hover ~ .menu_hover {
+  width: 86px;
+  left: 247px; }
+
+.menu_last:hover ~ .menu_hover {
+  width: 101px;
+  left: 408px; }
 
 /*# sourceMappingURL=style.css.map */

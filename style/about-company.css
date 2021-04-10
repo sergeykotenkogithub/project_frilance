@@ -2,16 +2,12 @@
   position: relative;
   background: url(/img/14.png);
   height: 952px;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
 
 .about-company__wrapper {
-  
   background-repeat: no-repeat;
- 
   position: relative;
-  margin-left: 140px;
-}
+  margin-left: 140px; }
 
 .container-backround {
   background: url(/img/background2.png);
@@ -23,42 +19,34 @@
   top: -155px;
   background-size: 1416px;
   left: 0;
-  right: 0;
-}
+  right: 0; }
 
 .about-company__text {
   margin-top: 100px;
   height: 290px;
-  width: 538px;
-  p {
+  width: 538px; }
+  .about-company__text p {
     padding-bottom: 20px;
     font-size: 16px;
     line-height: 181%;
-    color: #FFFFFF;
-  }
-}
+    color: #FFFFFF; }
 
-
-.about-company_information {
-  p {
-    color: #FFFFFF;
-    opacity: 0.44;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-  }
-  h1 {
-    color: #FFFFFF;
-    font-weight: 450;
-    font-size: 50px;
-    line-height: 64px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-}
+.about-company_information p {
+  color: #FFFFFF;
+  opacity: 0.44;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px; }
+.about-company_information h1 {
+  color: #FFFFFF;
+  font-weight: 450;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; }
 
 .about-backroud {
-  // background: url(/img/background2.png);
   width: 500px;
-  height: 500px;  
-}
+  height: 500px; }
+
+/*# sourceMappingURL=about-company.css.map */
