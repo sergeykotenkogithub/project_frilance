@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 275px;
   width: 500px; }
 
 .main_frame_up {
@@ -25,24 +25,27 @@
   background-repeat: no-repeat;
   position: absolute;
   width: 500px;
-  background-position-x: 31px;
-  background-position-y: -345px; }
+  background-position-x: 0px;
+  background-position-y: 10px; }
 
 .main_img2_up {
   background: url(/img/main_frame_right.png) no-repeat;
   position: absolute;
-  height: 943px;
+  height: 953px;
   width: 1643px;
   top: -70px;
   left: 315px;
-  background-size: cover; }
+  background-size: 1668px;
+  background-position-y: -68px;
+  transform: rotate(8deg);
+  background-position-x: -35px; }
 
 .main_img2_down {
   background: url(/img/main_frame_down_right.png);
   position: absolute;
   height: 785px;
   width: 700px;
-  top: 257px;
+  top: 200px;
   left: 817px; }
 
 .main__block {

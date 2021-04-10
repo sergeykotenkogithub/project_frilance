@@ -2,7 +2,8 @@
   position: relative;
   background: url(/img/14.png);
   height: 952px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  top: -170px; }
 
 .about-company__wrapper {
   background-repeat: no-repeat;
@@ -16,7 +17,6 @@
   background-position-x: 509px;
   background-position-y: -44px;
   position: absolute;
-  top: -155px;
   background-size: 1416px;
   left: 0;
   right: 0; }

@@ -8,6 +8,7 @@
 @import "affilate";
 @import "statics";
 @import "footer";
+@import "media";
 
 
 * {
@@ -114,15 +115,22 @@ body {
 
 .background-wrapper {
   background: url(/img/bg.png) no-repeat;
-  background-position-y: -80px;
-  background-size: 1356px;
-}
-;
+  background-position-y: 46px;
+  background-size: 1130px;
+};
+
+// .background-wrapper {
+//   background: url(/img/bg.svg) no-repeat;
+//   background-position-y: -80px;
+//   background-size: 1356px;
+// };
 
 .panel {
   height: 304px;
   width: 73px;
-  background: #19153A;
+  background: linear-gradient( 
+    180deg
+     , #25214f 0%, #1d1b45 100%);    
   border-radius: 0px 35px 35px 0px;
   position: fixed;
   top: 281px;
@@ -130,6 +138,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 10;
 }
 
 
@@ -206,3 +215,6 @@ body
   left: 408px;
 }
 
+.main_img3_down {
+  background: url(/img/bg3.svg) no-repeat;
+}
