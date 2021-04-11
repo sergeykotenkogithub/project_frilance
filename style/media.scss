@@ -32,17 +32,55 @@
   .how-info__all {
       padding: 0 25px;
   }
+  .statics-title_wrapper {
+    padding-left: 25px;
+  }
 
-//   .line2 {
-//     padding-left: 12px;
-//   }
+  .static-cripto {
+    padding-right: 25px;
+  }
+  .team-deposite {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .footer_wrapper, .team {
+    padding: 0 25px 0 25px;
+  }
+
 }
 
-// @media (max-width:1185px){
-//     .line2 {
-//         padding-left: 25px;
-//       }
-// }
+@media (max-width:1095px){
+  .statics {
+    justify-content: center;
+  }
+  // .static-cripto {
+  //   margin-top: 50px;
+  // }
+  .statics-title_wrapper {
+    margin: 0 25px;
+    padding-left: 0;
+  }
+  .static-cripto {
+    margin: 50px 25px 0 25px;
+  }
+}
+
+@media (max-width:1125px){
+  .minimal {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .turbo4 {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .turbo3 {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
 @media (max-width: 960px) {
   .panel {
@@ -56,6 +94,11 @@
   .header {
     padding-top: 90px !important;
   }
+  .change-country {
+    transform: rotate(-90deg);
+    top: 72px !important;
+    left: 65px !important;
+  }
 }
 
 @media (max-width: 899px) {
@@ -64,6 +107,18 @@
   }
   .container-backround {
     background-position: center;
+  }
+  .premium_wrapper {
+    justify-content: space-around;
+  }
+  .affilate__title {
+    padding: 0 25px;
+  }
+  .turbo4 {
+    margin-top: 35px !important;
+  }
+  .turbo3 {
+    margin-top: 97px !important;
   }
 }
 
@@ -131,6 +186,27 @@
   }  
   .how-info__all {
       justify-content: space-around;
+  }
+  .turbo2div {
+    margin-right: 25px;
+  }
+  .footer_wrapper {
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    div {
+      margin: 20px 0 0px 0px;
+    }    
+  }
+  .team {
+    padding: 0;
+  }
+  .footer_text {
+    text-align: center;
+  }
+  .social {
+    justify-content: space-around;
+   
   }
 }
 
@@ -211,6 +287,41 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .statics_total  {
+    margin-top: 25px;
+  }
+  .totalup {
+    margin-bottom: 0;
+  }
+  .statics_total {
+    margin-right: 0;
+  }
+  .static__block {
+    justify-content: center;
+  }
+}
+
+@media (max-width:520px){
+  .affilate__title h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media (max-width:506px){
+  .last-withdrawal, .last-deposit {
+    padding: 12px 55px;    
+  }
+  .line_crypto {
+    left: 180px
+  }
+}
+
+@media (max-width:460px){
+  .line_crypto {
+    left: 165px;
+  }
 }
 
 @media (max-width: 462px) {
@@ -232,8 +343,47 @@
       display: block;
       top: 1153px;  
     }
+    .premium_wrapper {
+      justify-content: center;
+    }
+    .minimal, .turbo2div, .turbo3, .turbo4 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .static-cripto__block,.emblem {
+      max-height: 150px;
+      max-width: 462px;
+    }
+    .static-cripto_wrapper {
+      justify-content: center;
+      
+    }
+    .static-cripto_info2 {
+      padding-top: 10px;
+    }
+    .static-cripto {
+      margin: 0;
+      padding-right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 }
 
+@media (max-width:400px){
+  .static-cripto__block,.emblem {
+    min-height: 180px;
+  }
+  .static-cripto__block {
+    width: 300px;
+  }
+  .static-cripto__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
 
 @media (max-width: 382px) {
     .header-button_wrapper {
@@ -252,6 +402,9 @@
     .profit-wrapper {
         padding-right: 10px;
     }
+    .panel {
+      left: 150px;
+    }
 }
 
 @media (max-width: 347px) {
@@ -259,4 +412,10 @@
         justify-content: space-between;
         padding: 0 20px;
     }
+}
+
+@media (max-width:345px){
+  .panel {
+    left: 115px;
+  }
 }

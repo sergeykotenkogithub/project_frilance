@@ -20,7 +20,8 @@
 
 .premium_wrapper {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .team-deposite {
   opacity: 0.31;
