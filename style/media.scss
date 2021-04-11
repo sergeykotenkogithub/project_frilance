@@ -1,13 +1,262 @@
-@media (max-width:1900px){
-    
+@media (max-width: 1900px) {
+    .container-backround {
+        background-position: right;
+    }
 }
-@media (max-width:1220px){
-    .header {
-        width: 95% !important;
-        flex-wrap: wrap;
+@media (max-width: 1220px) {
+  .header {
+    width: 95% !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-button_wrapper {
+    margin-top: 50px;
+  }
+  .main__block {
+    opacity: 0.9;
+  }
+  .sign-in {
+    margin-right: 145px !important;
+  }
+  .container_main {
+    justify-content: center;
+  }
+  .container {
+    max-width: 1170px;
+  }
+
+  .main_title h1 {
+    font-size: 35px;
+  }
+
+  .how-info__all {
+      padding: 0 25px;
+  }
+
+//   .line2 {
+//     padding-left: 12px;
+//   }
+}
+
+// @media (max-width:1185px){
+//     .line2 {
+//         padding-left: 25px;
+//       }
+// }
+
+@media (max-width: 960px) {
+  .panel {
+    transform: rotate(90deg);
+    left: 172px;
+    top: -120px !important;
+  }
+  .country {
+    transform: rotate(-90deg);
+  }
+  .header {
+    padding-top: 90px !important;
+  }
+}
+
+@media (max-width: 899px) {
+ .header-menu {
+    margin-top: 28px;
+  }
+  .container-backround {
+    background-position: center;
+  }
+}
+
+@media (max-width: 820px) {
+  .main__block {
+    margin: 0 25px;
+    max-width: 797px;
+    padding: 0 50px;
+  }
+  .container_main_block {
+    // max-width: 628px
+    width: 100%;
+  }
+  .benefits_wrapper {
+    flex-wrap: wrap;
+  }
+  .make {
+    width: 100%;
+  }
+  .profit {
+    flex-wrap: wrap;
+  }
+  .all_crypto {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:792px){
+    .how-info__wrapper {
+        padding-top: 20px;
+        padding-right: 15px;
+    }
+    .line_all {
+        top: 224px;
+    }
+    .line_all-2 {
+        display: block;
+        top: 534px;
+    }
+   
+}
+
+@media (max-width: 750px) {
+    .about-company__wrapper {
+        margin-left: 0;
+    }
+    .about-company {
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        margin-top: 50px !important;
+    }
+}
+
+@media (max-width: 675px) {
+  .header-menu {
+    margin-left: 0px !important;
+  }
+  .menu_last {
+    padding-right: 0px !important;
+  }
+  .all_crypto-coin {
+    flex-wrap: wrap;
+    justify-content: center;
+  }  
+  .how-info__all {
+      justify-content: space-around;
+  }
+}
+
+@media (max-width: 654px) {
+  .benefit_2 {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 555px) {
+  .main_title {
+    padding: 0 20px;
+  }
+  .header-menu__link {
+    padding-right: 0;
+  }
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .menu_hover {
+    top: 25px;
+  }
+  .header-menu {
+    display: flex;
+    align-items: center;
+    a {
+      font-size: 30px !important;
+      height: 45px;
+      padding-right: 0;
+    }
+  }
+  .header__logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu__choose {
+    left: 140px !important;
+  }
+  .menu_hover {
+    height: 5px !important;
+    top: 30px;
+    width: 100px !important;
+    left: 32px !important;
+  }
+
+  .menu__link_2:hover ~ .menu_hover {
+    top: 126px;
+    width: 67px !important;
+    top: 77px;
+    left: 50px !important;
+    transition: left 0.5s ease 0s;
+  }
+
+  .menu__link_3:hover ~ .menu_hover {
+    width: 145px !important;
+    left: 12px !important;
+    top: 117px;
+  }
+
+  .menu_last:hover ~ .menu_hover {
+    width: 174px !important;
+    left: -3px !important;
+    top: 165px;
+  }
+
+  .sign-in {
+    margin-right: 10px !important;
+    margin-bottom: 15px;
+  }
+
+  .header-button_wrapper {
+    display: flex;
+    width: 100%;
+    margin: 30px 25px 0px 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 462px) {
+    .main__block {
+        z-index: 1;
+        height: 800px;
+    }
+    .about-company {
+        margin-top: 20px !important; 
+    }
+    .how_3 {
+        width: 250px;
+    }
+    .line_all-3  {
+      display: block;
+      top: 844px;   
+    }
+    .line_all-4  {
+      display: block;
+      top: 1153px;  
+    }
+}
+
+
+@media (max-width: 382px) {
+    .header-button_wrapper {
         justify-content: center;
     }
-    .header-button_wrapper {
-        margin-top: 50px;
+    .main_title h1 {
+        font-size: 30px;
+    }
+    .main__block {
+        padding: 0 10px;
+        margin: 0;
+    }
+    .profit {
+        justify-content: center;
+    }
+    .profit-wrapper {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 347px) {
+    .profit {
+        justify-content: space-between;
+        padding: 0 20px;
     }
 }

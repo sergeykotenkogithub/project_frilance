@@ -37,9 +37,9 @@
   border: 2px solid #8400e4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   position: absolute;
+  width: 900px;
   top: 6px;
-  width: 500px;
-  left: -375px
+  left: -890px;
 }
 
 .how-text {
@@ -53,7 +53,7 @@
     text-align: center;
     font-size: 16px;
     line-height: 177.5%;
-    color: #5669A9;
+    color: #5669a9;
     font-weight: 300;
   }
   :first-child {
@@ -78,7 +78,6 @@
   position: relative;
 }
 
-
 .advantages div {
   color: #ffffff;
   font-weight: 500;
@@ -101,16 +100,39 @@
     line-height: 64px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
 .line_all {
   border: 2px solid #2f2c64;
   position: absolute;
-  top: 190px;
+  top: 203px;
+  width: 100%
+}
+
+.line_all-2 {
+  border: 2px solid #2f2c64;
+  position: absolute;
+  top: 220px;
   width: 100%;
-  left: 1px;
+  display: none;
+}
+
+.line_all-3 {    
+    border: 2px solid #2f2c64;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    display: none;
+}
+
+.line_all-4 {
+  border: 2px solid #2f2c64;
+  position: absolute;
+  top: 220px;
+  width: 100%;
+  display: none;
 }
 
 .line_chose {
@@ -132,12 +154,11 @@
   width: 18px;
   height: 18px;
   background: aliceblue;
-  left: 85px;
   border-radius: 50%;
   box-sizing: border-box;
   z-index: 2;
-  background: #19153F;
-  border: 2px solid #2F2C64;
+  background: #19153f;
+  border: 2px solid #2f2c64;
   box-sizing: border-box;
 }
 
@@ -149,13 +170,87 @@
   left: 62px;
 }
 
-
 .circle_choose {
-  background: #8400E4;
+  background: #8400e4;
   img {
     margin-left: 2px;
     margin-bottom: 9px;
     width: 14px;
   }
+}
+
+
+
+// .............................................................................................................
+// .............................................................................................................
+
+.how-info {  
+  position: relative;
+
+  &__all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 177.5%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__circle {
+    width: 18px;
+    height: 18px;
+    background: aliceblue;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 2;
+    background: #19153f;
+    border: 2px solid #2f2c64;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  &__text {
+    position: relative;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 177.5%;
+  text-align: center;
+  color: #5669A9;
+  }
+}
+
+.how_1 {
+  width: 179px;
+}
+
+.how_2 {
+  width: 215px;
+}
+.how_3 {
+  width: 189px;
+}
+.how_4 {
+  width: 160px;
 }
 

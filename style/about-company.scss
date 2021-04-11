@@ -6,12 +6,10 @@
   top: -170px;
 }
 
-.about-company__wrapper {
-  
-  background-repeat: no-repeat;
- 
+.about-company__wrapper {  
   position: relative;
-  margin-left: 140px;
+  margin-left: 250px;
+  top: 165px
 }
 
 .container-backround {
@@ -30,7 +28,7 @@
 .about-company__text {
   margin-top: 100px;
   height: 290px;
-  width: 538px;
+  max-width: 538px;
   p {
     padding-bottom: 20px;
     font-size: 16px;
