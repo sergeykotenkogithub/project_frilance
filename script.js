@@ -34,3 +34,18 @@ changeColor2.addEventListener('click', e => {
     changeColor2.classList.add('last-deposit');
     lineColor.style.border = "2px solid #2f2c64"
 })
+
+
+// Бургер
+
+const iconMenu = document.querySelector('.menu_icon')
+if (iconMenu) {
+    const burgerBody = document.querySelector('.burger-body')
+    iconMenu.addEventListener("click", e => {
+        document.body.classList.toggle('_lock');
+        iconMenu.classList.toggle('_active');
+        burgerBody.classList.toggle('_active');
+        
+    })
+}
+  

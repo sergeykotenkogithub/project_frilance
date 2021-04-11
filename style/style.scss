@@ -9,6 +9,7 @@
 @import "statics";
 @import "footer";
 @import "media";
+@import "burger";
 
 
 * {
@@ -21,9 +22,9 @@ a {
 }
 
 body {
-  background: #18153a;
- 
+  background: #18153a; 
   font-family: "Poppins", sans-serif;
+  height: 100%;
 }
 
 .container {
@@ -144,8 +145,8 @@ body {
 .change-country {
   position: absolute;
   display: none;
-  top: 65px;
-  left: 60px;
+  top: 70px;
+  left: 27px;
   img {
     width: 35px;
   }
@@ -235,4 +236,15 @@ body
 
 .wrapper2 {
   padding-left: 0;
+}
+
+html {
+  height: 100%;
+}
+
+// .background-wrapper {
+//   display: none;
+// }
+.burger_header, .burger-body {
+  display: none;
 }

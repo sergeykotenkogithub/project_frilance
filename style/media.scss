@@ -15,9 +15,6 @@
   .main__block {
     opacity: 0.9;
   }
-  .sign-in {
-    margin-right: 145px !important;
-  }
   .container_main {
     justify-content: center;
   }
@@ -91,17 +88,6 @@
     transform: rotate(90deg);
     left: 172px;
     top: -120px !important;
-  }
-  .country {
-    transform: rotate(-90deg);
-  }
-  .header {
-    padding-top: 90px !important;
-  }
-  .change-country {
-    transform: rotate(-90deg);
-    top: 72px !important;
-    left: 65px !important;
   }
 }
 
@@ -328,6 +314,9 @@
   .wrapper2 {
     padding-left: 60px !important; 
   }
+  .main__block {
+    height: 800px;
+  }
 }
 
 @media (max-width:460px){
@@ -402,6 +391,7 @@
     padding-left: 0px !important; 
   }
 }
+
 
 @media (max-width: 382px) {
     .header-button_wrapper {
