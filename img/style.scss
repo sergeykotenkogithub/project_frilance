@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+@import "main";
+@import "about-company";
+@import "how-it-works";
+@import "affilate";
+@import "statics";
+@import "footer";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #18153a;
+ 
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 42px;
+}
+
+.header-menu {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.header-menu__link {
+    padding-right: 83px;
+    .header-menu__link:last-child {
+        padding-right: 45px;
+    }
+}
+
+.header-button {
+  border: 1px solid #8300e1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 151px;
+  height: 43px;
+  position: relative;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.sign-in {
+    background: #18153a;
+    margin-right: 9px;
+  &::before {
+    content: "";
+    background-image: url("/img/key.svg");
+    z-index: 1;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    left: 19px;   
+  } 
+}
+
+.sign-up {
+    background: linear-gradient(180deg, #8500E5 0%, #8400E3 28.13%, #6901C1 62.5%, #4D00A0 100%)
+
+}
+
+.wrapper {
+  // width: 1370px;
+  // margin: 0 auto;
+  position: relative;
+}
+
+.background-wrapper {
+  background: url(/img/bg.png) no-repeat;
+  background-position-y: -80px;
+  background-size: 1570px;
+}
+;
+
+.panel {
+  height: 304px;
+  width: 73px;
+  background: #19153A;
+  border-radius: 0px 35px 35px 0px;
+  position: absolute;
+  top: 281px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.country_name {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #FFFFFF;
+
+  div {
+    // margin-right: 5px;
+  }
+}
+
+
+// html {
+//   width: 100%;
+//   height: 100%;
+//   overflow-x: hidden;
+//   margin-right: calc(-1 * (100vw - 100%));
+// }
+
+html{
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}

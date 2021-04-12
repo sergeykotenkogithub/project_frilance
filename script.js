@@ -1,12 +1,16 @@
 // Смена языка
 const EngRus = document.querySelector('.change-country')
-// const EngRus = document.querySelector('.show-country')
 const changeCountry = document.querySelector('.country')
 changeCountry.addEventListener('click', (e) => {
-    // console.log("Привет")
-    // EngRus.
     e.preventDefault();
     EngRus.classList.toggle('show-country');
+})
+
+const EngRus2 = document.querySelector('.change-country2')
+const changeCountry2 = document.querySelector('.country2')
+changeCountry2.addEventListener('click', (e) => {
+    e.preventDefault();
+    EngRus2.classList.toggle('show-country');
 })
 
 // Смена цвета deposit withdrawl
